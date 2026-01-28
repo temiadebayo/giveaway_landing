@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        // Send HYPE confirmation email
+        // Send HYPE confirmation email with community links
         try {
             await resend.emails.send({
                 from: 'Giveaway App <hello@trygiveaway.app>',
@@ -121,11 +121,58 @@ export async function POST(request: NextRequest) {
                                                     We're cooking something <strong style="color: #ffffff;">absolutely insane</strong> for you.<br>
                                                     Skill-based giveaways that actually reward the <span style="color: #00D4FF;">real players</span>.
                                                 </p>
-                                                
-                                                <p style="margin: 25px 0; font-size: 16px; line-height: 1.6; color: #64748b; text-align: center;">
-                                                    No more random draws. No more bots winning.<br>
-                                                    Just you, your skills, and your W's. 🏆
-                                                </p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <!-- Community Section -->
+                                        <tr>
+                                            <td style="padding: 0 40px 30px;">
+                                                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 25px; text-align: center;">
+                                                    <p style="margin: 0 0 15px; font-size: 20px; font-weight: 800; color: #ffffff;">
+                                                        🎮 JOIN THE COMMUNITY
+                                                    </p>
+                                                    <p style="margin: 0 0 20px; font-size: 14px; color: #64748b;">
+                                                        This is where the real ones link up. Don't miss out.
+                                                    </p>
+                                                    
+                                                    <!-- Community Buttons -->
+                                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td align="center" style="padding: 5px;">
+                                                                <a href="https://discord.gg/JUqsA75mG7" style="display: inline-block; padding: 12px 24px; background: linear-gradient(135deg, #5865F2 0%, #7289DA 100%); color: #ffffff; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 10px; margin: 5px;">
+                                                                    🎮 Join Discord
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" style="padding: 5px;">
+                                                                <a href="#whatsapp" style="display: inline-block; padding: 12px 24px; background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); color: #ffffff; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 10px; margin: 5px;">
+                                                                    💬 Join WhatsApp
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" style="padding: 5px;">
+                                                                <a href="#telegram" style="display: inline-block; padding: 12px 24px; background: linear-gradient(135deg, #26A5E4 0%, #0088CC 100%); color: #ffffff; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 10px; margin: 5px;">
+                                                                    ✈️ Join Telegram
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                    <!-- Social Links -->
+                                                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
+                                                        <p style="margin: 0 0 10px; font-size: 12px; color: #64748b;">
+                                                            Follow us for updates & exclusive content:
+                                                        </p>
+                                                        <a href="#twitter" style="display: inline-block; padding: 8px 16px; background: #000000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 8px; margin: 3px; border: 1px solid rgba(255,255,255,0.2);">
+                                                            𝕏 Twitter
+                                                        </a>
+                                                        <a href="#tiktok" style="display: inline-block; padding: 8px 16px; background: #000000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 8px; margin: 3px; border: 1px solid rgba(255,255,255,0.2);">
+                                                            🎵 TikTok
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </td>
                                         </tr>
                                         
