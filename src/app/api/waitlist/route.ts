@@ -132,7 +132,7 @@ export async function POST(request: NextRequest) {
                                         <!-- CTA Button -->
                                         <tr>
                                             <td style="padding: 0 40px 40px; text-align: center;">
-                                                <a href="https://giveaway.app" style="display: inline-block; padding: 18px 40px; background: linear-gradient(135deg, #9506FA 0%, #00D4FF 100%); color: #ffffff; font-size: 18px; font-weight: 800; text-decoration: none; border-radius: 14px; box-shadow: 0 10px 40px rgba(149,6,250,0.3);">
+                                                <a href="https://trygiveaway.app" style="display: inline-block; padding: 18px 40px; background: linear-gradient(135deg, #9506FA 0%, #00D4FF 100%); color: #ffffff; font-size: 18px; font-weight: 800; text-decoration: none; border-radius: 14px; box-shadow: 0 10px 40px rgba(149,6,250,0.3);">
                                                     SEE WHAT'S COMING 👀
                                                 </a>
                                             </td>
