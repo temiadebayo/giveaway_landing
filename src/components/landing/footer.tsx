@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Twitter, Instagram, Heart } from "lucide-react";
+import { Twitter, Instagram, Heart, Gamepad2 } from "lucide-react";
 import Image from "next/image";
 import logoWhite from "@/assets/logo_white.png";
 import { motion } from "framer-motion";
@@ -71,7 +71,7 @@ export function Footer() {
                                 {[
                                     { icon: Twitter, label: "Follow us on Twitter", href: "https://twitter.com/giveawayapp" },
                                     { icon: Instagram, label: "Follow us on Instagram", href: "https://instagram.com/giveawayapp" },
-                                    { icon: Github, label: "View our Github", href: "https://github.com/giveawayapp" },
+                                    { icon: Gamepad2, label: "Join our Discord", href: "https://discord.gg/JUqsA75mG7" },
                                 ].map((social) => (
                                     <motion.a
                                         key={social.label}
