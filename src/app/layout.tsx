@@ -41,6 +41,19 @@ export const metadata: Metadata = {
     creator: "Giveaway App",
     publisher: "Giveaway App",
 
+    // Favicon & Icons
+    icons: {
+        icon: [
+            { url: "/favicon.png", sizes: "any" },
+            { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+            { url: "/favicon.png", type: "image/png", sizes: "16x16" },
+        ],
+        apple: [
+            { url: "/favicon.png", sizes: "180x180" },
+        ],
+        shortcut: "/favicon.png",
+    },
+
     // Open Graph (Facebook, LinkedIn, etc.)
     openGraph: {
         type: "website",
