@@ -83,17 +83,18 @@ export function Navbar() {
                         <Button
                             variant="ghost"
                             className="text-slate-300 hover:text-white hover:bg-white/5"
+                            onClick={() => window.location.href = 'https://app.trygiveaway.app/login'}
                         >
-                            Jump In
+                            Log In
                         </Button>
                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                             <Button
                                 variant="gradient"
                                 size="sm"
                                 className="font-bold"
-                                onClick={() => scrollToSection('#waitlist')}
+                                onClick={() => window.location.href = 'https://app.trygiveaway.app'}
                             >
-                                I&apos;m In 🚀
+                                Get Started 🚀
                             </Button>
                         </motion.div>
                     </div>
@@ -129,8 +130,8 @@ export function Navbar() {
                                 </button>
                             ))}
                             <div className="flex flex-col gap-2 pt-4 border-t border-white/10">
-                                <Button variant="ghost" className="justify-start">Jump In</Button>
-                                <Button variant="gradient">I&apos;m In 🚀</Button>
+                                <Button variant="ghost" className="justify-start" onClick={() => window.location.href = 'https://app.trygiveaway.app/login'}>Log In</Button>
+                                <Button variant="gradient" onClick={() => window.location.href = 'https://app.trygiveaway.app'}>Get Started 🚀</Button>
                             </div>
                         </nav>
                     </motion.div>

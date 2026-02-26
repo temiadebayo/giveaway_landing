@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         default: "Giveaway App - Win. Compete. Flex. | Skill-Based Giveaways",
         template: "%s | Giveaway App"
     },
-    description: "The future of giveaways is here! Compete in skill-based games like Tap Challenges to win real prizes. No luck needed—just vibes and speed. Join 2,200+ waiting for launch. 🚀",
+    description: "The future of giveaways is here! Compete in skill-based games like Tap Challenges to win real prizes. No luck needed—just vibes and speed. 🚀",
     keywords: [
         "giveaway app",
         "skill-based giveaways",
@@ -41,19 +41,6 @@ export const metadata: Metadata = {
     creator: "Giveaway App",
     publisher: "Giveaway App",
 
-    // Favicon & Icons
-    icons: {
-        icon: [
-            { url: "/favicon.png", sizes: "any" },
-            { url: "/favicon.png", type: "image/png", sizes: "32x32" },
-            { url: "/favicon.png", type: "image/png", sizes: "16x16" },
-        ],
-        apple: [
-            { url: "/favicon.png", sizes: "180x180" },
-        ],
-        shortcut: "/favicon.png",
-    },
-
     // Open Graph (Facebook, LinkedIn, etc.)
     openGraph: {
         type: "website",
@@ -76,7 +63,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Giveaway App - Win. Compete. Flex. 🏆",
-        description: "Forget random draws. Compete in skill-based games to win real prizes. Join 2,200+ on the waitlist!",
+        description: "Forget random draws. Compete in skill-based games to win real prizes.",
         images: ["/og-image.png"],
         creator: "@giveawayapp",
         site: "@giveawayapp",
@@ -163,8 +150,8 @@ const jsonLd = {
     },
     potentialAction: {
         "@type": "JoinAction",
-        target: "https://giveaway.app/#waitlist",
-        name: "Join Waitlist"
+        target: "https://app.trygiveaway.app",
+        name: "Play Now"
     }
 };
 

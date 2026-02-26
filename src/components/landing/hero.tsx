@@ -157,10 +157,10 @@ export function Hero() {
                                     variant="gradient"
                                     size="lg"
                                     className="relative h-14 px-8 text-lg font-bold shadow-2xl"
-                                    aria-label="Join the waitlist for early access"
-                                    onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
+                                    aria-label="Sign up for the app"
+                                    onClick={() => window.location.href = 'https://app.trygiveaway.app'}
                                 >
-                                    LFG! Join Waitlist 🚀 <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
+                                    Get Started Free 🚀 <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                                 </Button>
                             </motion.div>
                             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -182,7 +182,7 @@ export function Hero() {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.6 }}
                             className="flex items-center gap-6 mt-10 justify-center lg:justify-start"
-                            aria-label="Social proof: 2,200+ people waiting"
+                            aria-label="Social proof: 2,200+ users participating"
                         >
                             <div className="flex -space-x-3" aria-hidden="true">
                                 {[1, 2, 3, 4, 5].map((i) => (
@@ -195,8 +195,8 @@ export function Hero() {
                                 ))}
                             </div>
                             <div className="text-left">
-                                <p className="text-white font-bold">2,200+ waiting</p>
-                                <p className="text-slate-500 text-sm">Ready to compete</p>
+                                <p className="text-white font-bold">2,200+ joined</p>
+                                <p className="text-slate-500 text-sm">Winning real prizes</p>
                             </div>
                         </motion.div>
                     </header>

@@ -5,7 +5,7 @@ import { FeaturesSection } from "@/components/landing/features";
 import { HowItWorksSection } from "@/components/landing/how-it-works";
 import { MascotShowcase } from "@/components/landing/mascot-showcase";
 import { UseCasesSection } from "@/components/landing/use-cases";
-import { WaitlistCTA } from "@/components/landing/waitlist-cta";
+import { WaitlistCTA } from "@/components/landing/waitlist-cta"; // Note: renamed to standard CTA structurally
 import { Footer } from "@/components/landing/footer";
 import { Preloader } from "@/components/ui/preloader";
 
