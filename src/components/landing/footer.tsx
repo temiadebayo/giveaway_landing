@@ -140,10 +140,12 @@ export function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 gap-4">
                     <p className="text-slate-500 text-sm flex items-center gap-1">
                         <span itemProp="copyrightYear">© 2026</span>{" "}
-                        <span itemProp="copyrightHolder">Giveaway App</span>. Made with{" "}
+                        <span itemProp="copyrightHolder">Giveaway App</span>.
+                        {" "}Built by <a href="https://www.techjack.site" className="text-primary hover:underline font-medium">tECh jAcK</a>.
+                        Made with{" "}
                         <Heart className="w-4 h-4 text-red-500 fill-red-500" aria-label="love" /> for the culture.
                     </p>
-                    <p className="text-slate-600 text-xs">
+                    <p className="text-slate-600 text-xs text-center md:text-right">
                         The future of digital engagement starts here. 🚀
                     </p>
                 </div>
